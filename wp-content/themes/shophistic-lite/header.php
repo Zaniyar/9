@@ -17,6 +17,8 @@
    <!-- WP_Head -->
     	<?php wp_head(); ?>
    <!-- /WP_Head -->
+	 <!-- /Homosomo -->
+
 </head>
 
 
