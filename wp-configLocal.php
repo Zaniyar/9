@@ -23,22 +23,19 @@
 define('DB_NAME', '9');
 
 /** MySQL database username */
-define('DB_USER', 'mariadb');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'e2b4eb0c984c86e7');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', 'Dokku-mariadb-9:3306');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-/** Server settings for Jetpack */
-$_SERVER['SERVER_PORT'] = 80;
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -49,14 +46,14 @@ $_SERVER['SERVER_PORT'] = 80;
  *
  * @since 2.6.0
  */
- define('AUTH_KEY',         '0T(g6:,+i}):DPmO|>tV=T!{;Oc(7<):3tz5yeNe+yw)5nqSpfzJ[^eC*Yiq]4L#');
- define('SECURE_AUTH_KEY',  'RHd6|191mxEH+yU+%,+E!%Ci/DF<*i%*?17Wy&Qt(WprJCtN?4fHbIlc Q ;)g{1');
- define('LOGGED_IN_KEY',    'nQ:XzJ@A~e+E9^^|poO|{4U^!8N||ZIRW#KIv;pa/@Un&fAJ$0k3Hv(`YVCyvFiB');
- define('NONCE_KEY',        '~&>At`S<G=7|7d,xnWCWWx-/BGhXl:~AmH!NmYSQ-SwB{QRv`|#+~c##+V-s(~8P');
- define('AUTH_SALT',        '~GJOkO+A)h%;5Ex!y_7T|u;aM2Dg^!!c$,X#>t$$cV9y$hZ?EBO>T<SyEUOr3M#0');
- define('SECURE_AUTH_SALT', '< 0`iewSoX-3zf-r,V:dPHHDN76CU^beT]#DbaV|uH+/Jli_0WaLqQcc+|8Ju+hp');
- define('LOGGED_IN_SALT',   'LDAf?/__CvvH`aAOP7+qD7Q)Q5rEi41#]g>EKq,4(31-LImkSQPGel=Gk<gn6LoT');
- define('NONCE_SALT',       'v#clB1jVCr2i_@+Ur|WOsK.,v^Jo6FL)eD~7BaN9/c#aJ gpWgR0uDuW#G<E,YpK');
+define('AUTH_KEY',         'gmot4P4pPY5>NX@G<fr< ;[2AATMA!|N7*v/XjC~<lk(OK_d|b%!,NQ39EYB/.5!');
+define('SECURE_AUTH_KEY',  '5_[T3+@&inKIBMJ721e/SxBqs@yFd)e?kT>Jq::C*!I:Y$u9qp(&QB0HP_OHQq3m');
+define('LOGGED_IN_KEY',    '6=G2yu@ht7+SqDMUO4!$:<3gukh3HHl#tdnMk~I|Az7Adi<>s90{fLV2r#@8nyKz');
+define('NONCE_KEY',        'h(<DS]FZ0?/*ciwx!@4nv`~m?|P KSSM]ftb $Q2Lk@$&n4d x}mgE@/6zma5T5j');
+define('AUTH_SALT',        'ypH4xQAx{klrv0 Ij{[tOCLjR{ rIR9MTw]=.Mp~DeT,| H1I<;1EHh>CG!h[`R!');
+define('SECURE_AUTH_SALT', 'jG8(C6yqGUUI0Z@k/x2r_FMUP@Pt%W~dM9WdunshomH|U&otS#f7N(VkTU6a}St6');
+define('LOGGED_IN_SALT',   'SIA>#=at0]xxe|8zTQX!x5Hmy2>L%f4w8Kz0 Hv{Fug^NU#.*tHAoB08XxnGz3).');
+define('NONCE_SALT',       'E=zKZi{s) ^.Hhf]9gxrLa_B@&jY}iI5VTXYvst%``;d)okUeH .5H3RTQ>,rbvk');
 
 /**#@-*/
 
